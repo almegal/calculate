@@ -74,6 +74,7 @@ public class Main {
                     break;
             }
         }
+
         // если введены римские цифры то конвертируем результа в римские цифры
         if(userInput.isRome) {
             for (Rome rome : Rome.values()){
